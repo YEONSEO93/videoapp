@@ -1,7 +1,7 @@
 {
   "name": "videoapp",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "The best way to watch videos.",
   "scripts": {
     "dev": "nodemon --exec babel-node src/init.js"
   },
@@ -10,12 +10,11 @@
     "url": "git+https://github.com/YEONSEO93/videoapp.git"
   },
   "author": "Yeonseo<yeooonseo@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/YEONSEO93/videoapp/issues"
   },
   "homepage": "https://github.com/YEONSEO93/videoapp#readme",
-  "description": "",
   "dependencies": {
     "express": "^4.21.1",
     "mongoose": "^8.8.0",
