@@ -1,0 +1,31 @@
+{
+  "name": "videoapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YEONSEO93/videoapp.git"
+  },
+  "author": "Yeonseo<yeooonseo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YEONSEO93/videoapp/issues"
+  },
+  "homepage": "https://github.com/YEONSEO93/videoapp#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.9",
+    "@babel/node": "^7.25.9",
+    "@babel/preset-env": "^7.25.9",
+    "nodemon": "^3.1.7"
+  }
+}
