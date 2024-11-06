@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 mongoose.connect("mongodb://127.0.0.1:27017/videoapp", {
-     useNewUrlParser: true,
+    useNewUrlParser: true,
     useUnifiedTopology: true,
 });
 
@@ -11,3 +11,8 @@ const handleOpen = () => console.log("Connected to Db");
 const handleError = (error) => console.log("DB Error", error);
 db.on("error", handleError);
 db.once("open", handleOpen);
+
+
+// show dbs
+// use videoapp
+// show collections
