@@ -16,3 +16,5 @@ db.once("open", handleOpen);
 // show dbs
 // use videoapp
 // show collections
+// db.users.find()
+// db.users.remove({})
