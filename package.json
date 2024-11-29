@@ -7,8 +7,12 @@
   },
   "scripts": {
     "dev:server": "nodemon",
-    "dev:assets": "webpack"
-  },
+    "dev:assets": "webpack --mode=development --watch",
+    "build:server": "babel src -d dist --ignore src/client",
+    "build:assets": "webpack --mode=production",
+    "build": "npm run build:server && npm run build:assets",
+    "start": "node dist/init.js"
+    },
   "author": "yeonseo Ko <yeooonseo@gmail.com>",
   "license": "MIT",
   "dependencies": {
